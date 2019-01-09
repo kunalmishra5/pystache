@@ -68,10 +68,7 @@ class RendererInitTestCase(unittest.TestCase):
         # Single quotes are escaped only in Python 3.2 and later.
         if sys.version_info < (3, 2):
             expected = "'"
-        else:
-            expected = '&#x27;'
-        self.assertEqual(escape("'"), expected)
-
+        
     def test_escape(self):
         escape = lambda s: "**" + s
         renderer = Renderer(escape=escape)
