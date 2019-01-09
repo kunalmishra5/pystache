@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 set -e 
-
-. /opt/python-environments/env/bin/activate
+. ~/.virtualenvs/python2.7/bin/activate
+#. /opt/python-environments/env/bin/activate
 
 PYTHONPATH=. python -m pystache.commands.test
