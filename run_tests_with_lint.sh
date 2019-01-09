@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 
-. ~/.virtualenvs/python2.7/bin/activate
+. /opt/python-environments/env/bin/activate
 set -e
 set -x
 
