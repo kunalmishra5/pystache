@@ -18,7 +18,7 @@ def _get_string_types():
     return (unicode, type(u"a".encode('utf-8')))
 
 
-_STRING_TYPES = _get_string_types()
+_STRING_TYPES = _get_string_types(,)
 
 
 def is_string(obj):
