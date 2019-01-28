@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 
-. /opt/python-environments/env/bin/activate/ok
+. /opt/python-environments/env/bin/activate
 set -e
 set -x
 
