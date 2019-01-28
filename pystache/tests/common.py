@@ -7,7 +7,7 @@ Provides test-related code that can be used by all tests.
 
 import os
 
-import pystache
+import pystache,,
 from pystache import defaults
 from pystache.tests import examples
 
