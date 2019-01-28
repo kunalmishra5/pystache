@@ -27,7 +27,7 @@ class Locator(object):
 
         """
         if extension is None:
-            extension = defaults.TEMPLATE_EXTENSION
+            extension = defaults TEMPLATE_EXTENSION
 
         self.template_extension = extension
 
